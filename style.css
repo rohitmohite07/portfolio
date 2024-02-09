@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Arizonia&family=Nova+Square&family=Pirata+One&family=Poppins:wght@700&family=Rethink+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background: transparent;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.29);
+}
+.navbar .navbar-nav{
+    margin-left: 30%;
+}
+.navbar .navbar-nav .nav-item{
+    margin: 0 10px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: 13px;
+    color: white;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: orange;
+}
+.navbar .nav-btn button{
+    background: orange;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 3px 8px;
+}
+.carousel-item img{
+   filter: brightness(40%);
+}
+.carousel-item .carousel-caption{
+    width: 40%;
+    text-align: center;
+    margin:auto;
+    padding-bottom: 60px;
+}
+.carousel-item .carousel-caption h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    color: orange;
+    font-family: poppins;
+}
+.controls i{
+    font-size: 30px;
+}
+.main-btn{
+    padding-top: 50px;
+}
+.main-btn button{
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    margin: 0 10px;
+}
+.main-btn button:hover{
+   color: orange;
+   background: transparent;
+   border-color: orange;
+}
+.carousel-indicators button{
+    height: 8px !important;
+    width: 8px !important;
+    border-radius: 50% !important;
+    background: transparent !important;
+    border: 1px solid white !important;
+}
+.carousel-indicators .active{
+    background: white !important;
+}
+.services img{
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+.section-heading h2{
+    text-transform: uppercase;
+    font-family: poppins;
+}
+.services .services-text{
+    padding: 80px;
+}
+.services h4{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.services i{
+    color: orange;
+    font-size: 25px;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading p{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 20px;
+}
+.portfolio .container-fluid div{
+    margin: 0;
+    padding: 0;
+}
+.counter .row div{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.counter .row div div{
+   height: 5px;
+   width: 50px;
+   background: orange;
+   border-radius: 20px;
+}
+.team .team-member{
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(94, 92, 92);
+}
+.team .team-member h5{
+    font-size: 12px;
+}
+.team .team-contact{
+    text-align: center;
+}
+.team .team-contact a{
+    color: black;
+    margin: 0 10px;
+}
+.reviews{
+    text-align: center;
+    padding: 0 10%;
+}
+.reviews img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.reviews a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+.reviews .section-heading,.projects .section-heading{
+    text-align: left;
+}
+.reviews .section-heading p,.projects .section-heading p{
+    width: 100%;
+    margin-left: 0;
+}
+.reviews .section-heading p:last-child{
+    font-size: 13px;
+}
+.reviews .main-btn button:hover{
+    color: black;
+    border: 1px solid black;
+} 
+.projects{
+    color: white;
+    padding: 30px 0;
+}
+.projects .main-btn button{
+    background: transparent;
+    color: orange;
+    border: 2px solid orange;
+    margin: 0 20px;
+}
+.projects .main-btn button:hover{
+    color: black;
+    background: orange;
+}
+.projects .section-heading p{
+    padding-top: 0;
+}
+.projects .main-btn{
+    padding-top: 15px;
+}
+.blog .section-heading p{
+    width: 100%;
+    margin-left: 0;
+}
+.blog .card{
+    border: none;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+}
+.blog .card .card-text{
+    text-transform: capitalize;
+}
+.card-body a{
+    background: orange;
+    color: white;
+    border-radius: 0;
+    margin: 15px 0;
+}
+.card-body a:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid orange;
+}
+.contact .send-msg,.contact .location{
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background: orange;
+    color: white;
+    border: none;
+    font-size: 13px;
+}
+.contact .location{
+    background: transparent;
+    border: 2px solid orange;
+    color: orange;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact .contact-right h2{
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+footer{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+
+
+
+@media (width<=768px){
+    .navbar .navbar-nav{
+        background: rgba(128, 128, 128, 0.357);
+        margin-left: 0;
+    }
+    .carousel-item img{
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .carousel-item .carousel-caption h1{
+        font-size: 40px;
+    }
+    .carousel-item .carousel-caption p{
+        font-size: 10px;
+    }
+    header .main-btn button{
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+    .controls i{
+        font-size: 10px;
+    }
+    .services img{
+        width: 100%;
+        height: auto;
+    }
+    .section-heading p{
+        width: 100%;
+        margin: 0;    
+    }
+    .projects .section-heading{
+        text-align: center;
+    }
+    .projects .main-btn{
+        margin-left: 20%;
+    }
+}
+@media(width<=426px){
+    .carousel-item .carousel-caption{
+        width: 70% !important;
+    }
+}
